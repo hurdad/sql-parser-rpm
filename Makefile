@@ -1,9 +1,9 @@
 # sql-parser-rpm
 SHELL := /bin/bash 
-version = 1.5
+version = 1.7
 name = sql-parser
 full_name = $(name)-$(version)
-download_url = "https://github.com/hyrise/$(name)/archive/v$(version).tar.gz"
+download_url = "https://github.com/hurdad/$(name)/archive/$(version).tar.gz"
 
 all: rpm
 

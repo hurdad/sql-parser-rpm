@@ -3,10 +3,12 @@ Version:	%{VERSION}
 Release:        1%{?dist}
 Summary:	This is a SQL Parser for C++.
 License:	MIT
-URL:		https://github.com/hyrise/sql-parser
+URL:		https://github.com/hurdad/sql-parser
 Source:         %{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildRequires:	bison
+BuildRequires:	flex
+Requires:	jsoncpp	
 
 %description
 This is a SQL Parser for C++.
